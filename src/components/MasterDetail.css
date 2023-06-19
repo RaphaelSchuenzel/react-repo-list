@@ -1,0 +1,24 @@
+.md-wrapper {
+  display: flex;
+}
+
+.md-items {
+  width: 25%;
+  padding-right: 1rem;
+}
+
+.md-items .md-item {
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.md-items .md-item,
+.md-details {
+  border: 1px solid grey;
+  margin-bottom: 0.5rem;
+}
+
+.md-details {
+  width: 75%;
+  padding: 1rem;
+}
